@@ -1,0 +1,77 @@
+Tools:
+======
+1.Where do i see my project related doc     :  Confluence
+2.Where do i see my project related tasks   :  Jira
+3.Where do i prepare my project source code :  IDE (Pycharm/Atom/VSC,..)
+4.What tool provides project structure		:  Pybuilder
+5.What tool we use for logging				:  Logging
+6.What tool we use for code quality			:  Linter
+7.What tool we use for testing code         :  PyTester
+8.What tool we use for code repository 		:  Git/BitBucket
+9.What tool we use for code deployement		:  Jenkins
+10.What tool we use for testing API			:  Postman
+	
+
+Python(Core+Adv):
+=================
+1.Core Python : Intro,Setup,Basics,Datatypes,input & output,Functions
+2.Adv Python  : OOPS,Modules & Packages,Exceptions,Threading,RegEx,Files,Db conn
+=======================================================================================
+
+Official Web site:			www.python.org
+
+1.Software
+2.Docs
+3.Jobs
+4.Community
+5.Events & Latest news
+
+Python Programming Environments:
+================================
+1.Learner		:  Python Shell (>>>) or Python IDLE or CommandPrompt
+2.Developer		:  Python IDE (Pycharm/Atom/VSC,...)
+
+Q.Is python is compiled or interpreted ?
+
+C is a compiler based programming language 
+
+    	demo.c    ->	compiler (turboc,ansic,devc,..) 	->	demo.obj           ->  Run     ->   demo.exe
+		(source)		(ctrl+F9)								(object->Byte Code)   (alt+F5)      (bit code)
+		
+		
+Java is a compiler + interpreter based programming language 
+		
+		demo.java   ->	compiler (javac) 		->	demo.class         ->  Interpreter(JVM)    ->   (bit code)
+		(source)									(Byte Code)         					      
+
+		
+Python is a compiler + interpreter based programming language 
+		
+		demo.py   ->	compiler (py_compile) 		->	demo.pyc        ->  Interpreter(PVM)    ->   (bit code)
+		(source)									   (Byte Code)         					       
+		
+		
+Python compilation command
+
+	python -m py_compile demo.py
+	
+Python interpretation command
+
+	python  demo.cpython-39.pyc
+=======================================================================================
+
+Python Keywords:
+----------------
+Language =>  Each word : meaning + situation to use
+
+C     	-> 32 keywords
+Java  	-> 63 keywords
+Python 	-> 36 keywords(reserved words) {Acc to 3.9.5}
+
+import keyword
+keyword.kwlist
+
+['False', 'None', 'True', '__peg_parser__', 'and', 'as', 'assert', 
+'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 
+'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 
+'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']

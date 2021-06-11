@@ -1,0 +1,39 @@
+Python Full Stack:
+==================
+1.FrontEnd	:Html,Css,JS,jQuery,Ajax,Bootstrap,Angular / ReactJs
+2.BackEnd   :Python(Core+Adv) + Web framework (Django/Flask) + Query Lang (SQL/NoSql)
+3.Tools		:
+4.Realtime project
+
+Tools:
+======
+1.Where do i see my project related doc     :  Confluence
+2.Where do i see my project related tasks   :  Jira
+3.Where do i prepare my project source code :  IDE (Pycharm/Atom/VSC,..)
+4.What tool provides project structure		:  Pybuilder
+5.What tool we use for logging				:  Logging
+6.What tool we use for code quality			:  Linter
+7.What tool we use for testing code         :  PyTester
+8.What tool we use for code repository 		:  Git/BitBucket
+9.What tool we use for code deployement		:  Jenkins
+10.What tool we use for testing API			:  Postman
+	
+
+Python(Core+Adv):
+=================
+1.Core Python : Intro,Setup,Basics,Datatypes,input & output,Functions
+2.Adv Python  : OOPS,Modules & Packages,Exceptions,Threading,RegEx,Files,Db conn
+=======================================================================================
+
+Official Web site:			www.python.org
+
+1.Software
+2.Docs
+3.Jobs
+4.Community
+5.Events & Latest news
+
+Python Programming Environments:
+================================
+1.Learner		:  Python IDLE
+2.Developer		:  Python IDE (Pycharm/Atom/VSC,...)

@@ -1,0 +1,88 @@
+Python Tokens:
+--------------
+1.Keyword
+2.Identifier
+3.Literal
+4.Variable
+5.Constant
+6.Datatypes
+7.Operators
+8.Control Statement
+==========================================
+Operators:
+----------
+	expression =>		c=a+b
+	
+	operands	=	a,b,c		
+	operators	=	=,+
+	
+Expression is a collection of operands & operators.
+Operators are used between operands to perform a specific operation.
+
+Types of Operators:
+-------------------
+1.Assignment operator (=)
+2.Arithmetic operators (+,-,*,**,/,//,%)
+3.Relational operators (<,>,<=,>=,!=,==)
+4.Logical operators (and  , or , not )
+5.Bitwise operators (&, | , ^, ~, <<,>> )
+6.Special operators
+        1.Identity operator  (is,is not)
+		2.Membership operator (in , not in)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+__________________________________________________________________
+
+App1: Addition of 2 numbers
+App2: Calculator app (add,sub,mul,div,mod)
+App3: Average of 3 numbers
+App4: Find simple interest
+App5: Find area of circle
+App6: Find area of cube
+App7: Find area of triangle
+App8: Find area of rectangle
+App9: Find square of a number
+App10: Find cube of a number
+__________________________________________________________________
+Python Tokens:
+--------------
+PS : Find area of circle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

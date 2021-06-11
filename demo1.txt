@@ -1,0 +1,102 @@
+C:   (Functional/Structural PL)   => Compiler based PL
+==
+#include<stdio.h>
+void	main()
+{
+	int age;
+	age=22;
+	printf("Hello C");
+}
+Java:(Object Oriented PL)		=> Compiler  + Interpreted based PL
+=====
+import	java.lang.*;
+class	Demo
+{
+	public static 	void	main(String	args[])
+	{
+		int age;
+		age=22;
+		System.out.println("Hello Java");
+	}
+}
+Python:(Functional+ Object Oriented +Procedural + Modular + Scripting...)  => Interpreted based PL
+=======
+	age=22.5
+	print("Hello Python")
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	Application Type	Library
+	=================	========
+	GUI 				Tkinter
+	Web					Django
+	Game				PyGame
+	Scientific			NumPy
+	Data visualization	PlotLib
+	Mollecular biology	Biopython
+
+	Python used in other domains
+	
+	Machine learning
+	Data Sceince
+	Automation
+	BigData
+	Cloud Computing
+	IOT
+	
+	Companies used by python 
+	
+	Google
+	Instragram
+	Youtube
+	Netflix
+	uber
+	ibm
+	NASA
+	Dropbox
+Python Full Stack:
+==================
+1.FrontEnd	:Html,Css,JS,jQuery,Ajax,Bootstrap,Angular / ReactJs
+2.BackEnd   :Python(Core+Adv) + Web framework (Django/Flask) + Query Lang (SQL/NoSql)
+3.Tools		:
+4.Realtime project
+Python(Core+Adv):
+=================
+1.Core Python : Intro,Setup,Basics,Datatypes,input & output,Functions
+2.Adv Python  : OOPS,Modules & Packages,Exceptions,Threading,RegEx,Files,Db conn
+Tools:
+======
+1.Where do i see my project related doc     :  Confluence
+2.Where do i see my project related tasks   :  Jira
+3.Where do i prepare my project source code :  IDE (Pycharm/Atom/VSC,..)
+4.What tool provides project structure		:  Pybuilder
+5.What tool we use for logging				:  Logging
+6.What tool we use for code quality			:  Linter
+7.What tool we use for testing code         :  PyTester
+8.What tool we use for code repository 		:  Git/BitBucket
+9.What tool we use for code deployement		:  Jenkins
+10.What tool we use for testing API			:  Postman

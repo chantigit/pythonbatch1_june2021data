@@ -1,0 +1,87 @@
+C Library (H->F):
+===========
+			HEADERFILE	FUNCTIONS
+
+C:\TurboC\include\	stdio.h		printf(),scanf(),...
+			conio.h		clrscr(),getch(),..
+			math.h		sqrt(),pow(),sin(),..
+			stdlib.h	exit(),malloc(),calloc(),..
+			string.h	strlen(),strcpy(),strcat(),..
+
+You want use sin() function	:	#include<	math.h		>
+
+Python Library(M->F,C,D):
+==============
+
+			MODULE		FUNCTIONS + CLASSES + DATA
+
+			math		sqrt(),pow(),sin(),...
+			re			search(),split(),sub(),...
+			keyword		kwlist(),..
+			collections	namedtuple,....
+	
+You want use sin() function			:	import	math		OR		from	math	import	sin,tan,pi	
+You want use namedtuple() function	:	from collections import namedtuple
+_____________________________________________________________________________________________________
+
+Creating constants in python:
+=============================
+from collections import namedtuple
+
+myConstants=namedtuple('Constants',['a','b','c','gravity','pi'])
+
+allconstants=myConstants(11,22,33,9.8,3.1415)
+
+
+allconstants.a 		=>	11
+allconstants.b 		=>  22
+allconstants.c      =>  33
+allconstants.pi
+allconstants.gravity
+
+----------------------------------------------------------------------
+Python comments:
+================
+->Includes : aim of program,author of program,date & time of the program
+->Makes program readability
+->Not compiled
+->Not allocating memory
+->Any where in the program
+->Types of comments:
+	1.Single line comments   :		#commnet1
+	2.Multi line commnets	 :
+	
+		'''		
+				commnet1
+				comment2
+		'''
+		OR
+		"""	
+				commnet1
+				comment2
+		"""
+----------------------------------------------------------------------
+
+1.type()  :  returns type of variable
+ex:
+			a=22
+			print(type(a))			#   <class 'int'>
+			
+2.id()    :  returns address/pointer of a variable
+ex:
+			a=22
+			print(id(a))            #   1267063942096
+			
+			
+		
+
+
+
+
+
+
+
+
+
+
+

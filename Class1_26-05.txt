@@ -1,0 +1,51 @@
+Python:
+=======
+1.Less lines of source code : SMALL
+2.Less syntax				: SIMPLE
+3.No semicolon
+4.No blocking
+5.Free 		:   www.python.org/downloads -> Python 3.X (3.9.5)
+6.OpenSource:	www.python.org/docs
+7.Dynamically Typed
+8.Multi-paragdim :Supports varies type of programming models
+9.Interpreted Based Programming language
+10.Platform indepedent Programming language
+11.Huge libraries to develop different types of applications
+	Application Type	Library
+	=================	========
+	GUI 				Tkinter
+	Web					Django
+	Game				PyGame
+	Scientific			NumPy
+	Data visualization	PlotLib
+	Mollecular biology	Biopython
+12.Python used in other domains
+	Machine learning
+	Data Sceince
+	Automation
+	BigData
+	Cloud Computing
+	IOT
+13.Companies used by python 
+	Google
+	Instragram
+	Youtube
+	Netflix
+	uber
+	ibm
+	NASA
+	Dropbox
+	...
+	
+
+Python Full Stack:
+==================
+1.FrontEnd	:Angular / ReactJs
+2.BackEnd   :Python + Web framework (Django) 
+3.Tools		
+4.Realtime project
+
+
+Python:
+	Core Python
+	Adv Python

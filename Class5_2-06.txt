@@ -1,0 +1,96 @@
+Q1.What is Identifier ?
+Q2.What is Literal ?
+Q3.What is Variable ?
+Q4.What is Constant ?
+-------------------------------------------------------------
+C language:
+
+	You want to declare age of person 		:	int		age		=21;
+	You want to declare height of person 	:	float	height	=6.2;
+	You want to declare PI value		 	:	float	PI		=3.1415;
+	You want to declare GRAVITY value		:	float	GRAVITY	=9.8;
+
+Identifier: It is a name which is given to register (register can be a variable/constant/function/class)
+	Ex:
+		age,height,PI,GRAVITY
+
+Literal	: It is a value which is inside the register  
+	Ex:
+		21,6.2,3.1415...
+		
+Variable : It is a register which literal can be varies
+	Ex:
+		age,height
+Constant : It is a register which literal cannot be varies
+	Ex:
+		PI,GRAVITY
+------------------------------------------------------------------
+
+1.Rules to declare an Identifier:
+================================
+	->An Identifier can be combination of alphabets,digits ,special symbol(_)
+	Ex:
+		age 		= 	21		#valid
+		person_age	=	21		#valid
+		student1_age=	21		#valid
+		student2$age=   22		#invalid
+		_person_height=5.8		#valid
+	->An Identifier cannot start with digit
+		sub1	=	55		#valid
+		1sub	=	55		#invalid
+	->Multiple identifiers can be separated by comma
+		sub1,sub2,sub3=44,55,66		#valid
+		sub1 sub2 sub3=44,55,66	    #invalid
+	->An Identifier cannot be a keyword
+		True 	=	33		#invalid
+		true	=	33		#valid
+		if		=	45		#invalid
+		IF		=	55		#valid
+		
+2.Literal Types:
+================
+
+	You want to store person age  			:	21			->  1.integer literal
+	You want to store person height			:	6.7			->	2.float literal
+	You want to store person name			:	'Ajay'		->	3.string literal
+	You want to store person marital status	:	True/False	->	4.boolean literal
+	You want to store person location		:	1.2 + 4.5 i	->	5.complex literal
+	
+	You want to store person hobbies		:	[ ( { 'Singing','Gardening','Cooking' ) } ]
+	You want to store person account number	: 
+		{
+			bankName 		:  'SBI'
+			branch			: 'SRNagar'
+			accountNunmber 	: 1000123
+			ifsc			: 'SBIN000234'
+		}
+		
+	representation	:	[value1,value2,...]			=>	6.List
+	
+						(value1,value2,...)			=>	7.Tuple
+						
+						{value1,value2,...}			=>	8.Set
+						
+						{key1:value,key2:value,..}	=>	9.Dictionary
+
+1.type()  :	It returns type of data/literal
+
+	Ex:
+		a  =  6
+		type(a)		#  int
+		
+3.Variable:
+============
+	It is a register which value can be varies
+Ex:
+	age = 21
+
+4.Constant:
+============
+	It is a register which value cannot be varies
+Ex:
+	GRAVITY = 9.8
+
+	In c 	:  	const  	float GRAVITY = 9.8 ;
+	In java	:	final	float GRAVITY = 9.8 F;
+	
