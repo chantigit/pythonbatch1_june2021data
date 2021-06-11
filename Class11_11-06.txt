@@ -1,0 +1,99 @@
+https://github.com/chantigit/pythonbatch1_june2021data
+
+Python Tokens:
+--------------
+1.Keyword
+2.Identifier
+3.Literal
+4.Variable
+5.Constant
+6.Datatypes
+7.Operators
+8.Control Statements
++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Input & Output function:
+========================
+					Output			Input
+				
+C language  		printf()		scanf()
+Python language		print()			input()
+
+
+input() : used to read data from SHELL (>>>)
+print() : used to write data into SHELL (>>>)
+______________________________________________________________
+
+1.How to use 'end' argument inside print() function ?
+2.How to use 'sep' argument inside print() function ?
+3.How to use format specifiers(%d,%f,%s) in print() function ?
+4.How to use format() function in print() function ?
+
+Note:
+=====
+1. print() function always print the data & move the cursor to the next line
+2. print() function always takes separator as space
+
+--------------------------------------------------------------
+8.Control Statements:
+=====================
+1.Decision Making statements
+	1.if 
+	2.else
+	3.elif
+2.Loop statements
+	1.while
+	2.for
+3.Jump statements
+	1.break
+	2.continue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
