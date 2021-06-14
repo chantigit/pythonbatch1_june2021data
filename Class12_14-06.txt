@@ -1,0 +1,114 @@
+--------------------------------------------------------------
+8.Control Statements:
+=====================
+1.Decision Making statements
+	1.if 
+	2.else
+	3.elif
+2.Loop statements
+	1.while
+	2.for
+3.Jump statements
+	1.break
+	2.continue
+--------------------------------------------------------------
+
+if :  This keyword used to check condition in true case.
+===	
+syntax:
+		if  condition :
+				
+				statements
+
+Ex1:check given number is +ve or not
+
+if-else:These keywords used to check condition in true & false case.
+========
+syntax:
+		if  condition :
+				statement1
+				statement2
+				statement3
+		else:
+				statement4
+				statement5
+				statement6
+Ex2:check given number is +ve or -ve
+
+elif: (nested if-else) This keyword used to check multiple conditions in true & false cases.
+======================
+
+syntax:
+	
+	if condition1:
+		statement1
+	elif condition2:
+		statement2
+	elif condition3:
+		statement3
+	else:
+		statement4
+
+Ex3:check given number is zero or +ve or -ve
+
+Ex4:   biggest of 2 numbers
+Task1: biggest of 4/5/6/7 numbers
+Task2: check given year is leap or not
+Task3: check given number is even or odd 
+Task4: print result of 3 subject marks as given below
+
+	1. Total
+	2. Percentage
+	3. Grade      
+			A  -  percenatge above 70
+			B  -  percenatge between 70 & 60
+			C  -  percenatge between 60 & 50
+			D  -  percenatge below 50
+	4. Result of all subjects  (pass/fail)
+	5. Result of each subject  (s1 is pass,..)
+	6. Highest secured subject
+	7. Lowest secured subject
+	
+Task5: Read a number from console & print no of digits in that 
+	Enter a number : 55
+	55 having 2 digits
+Task6: Read a month number from condition & print no of days in that
+	Enter a month number : 6
+	6 month having 30 days
+
+	Enter a month number : 2
+	Enter year also: 2020
+	2 month having 29 days
+	
+	Enter a month number : 20
+	Invalid month
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
