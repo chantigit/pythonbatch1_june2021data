@@ -1,0 +1,46 @@
+--------------------------------------------------------------
+Core Python:
+===========
+
+Level1:Python Basics
+
+Level2:Python Tokens
+
+	I,L,V,C,K,DT,OP,CS
+
+Level3:
+	funtion & it sub topics
+
+Level4:
+	string & it's related funtions
+	list & it's related funtions
+	tuple & it's related funtions
+	set & it's related funtions
+	dict & it's related funtions
+	arrays & it's related funtions
+	numpy & it's related funtions
+
+--------------------------------------------------------------
+#NON-FUNCTIONAL PROGRAMMING DISADVANTAGES
+
+#1.Have code duplication (No code reusability)
+#2.More Space & Time complexicity
+#3.No code readability
+#4.Extensibility is becomes difficult
+#5.Modularity(Dividing main program into sub program) is not achieving
+
+
+#FUNCTIONAL PROGRAMMING ADVANTAGES
+
+#1.No code duplication (Have code reusability)
+#2.Less Space & Time complexicity
+#3.Have code readability
+#4.Extensibility is becomes easy
+#5.Modularity(Dividing main program into sub program) is achieving
+
+
+Task1: Cube of a number
+Task2: Power of a number
+Task3: Biggest of 4 numbers
+Task4: Find factorial of a number
+Task5: Print reverse of a number
