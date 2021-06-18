@@ -1,0 +1,71 @@
+1.NON-FUNCTIONAL PROGRAMMING DISADVANTAGES
+2.FUNCTIONAL PROGRAMMING ADVANTAGES
+3.Called Function:
+	Preparation of function
+4.Calling Function:
+	Usage of function
+5.Argument	:
+	Values which are present in calling function is called as argument
+6.Parameter	:
+	Vaiables which are present in called function header is called as parameter
+
+Ex:Cube of a number
+	#Called Function
+	def	cube(num):
+		result=num**3
+		print(result)
+	#Calling Function
+		n=10
+		cube(n)
+	
+	In the above program num is a parameter & n is a argument
+7.Function preparation ways
+8.Variable Types
+	1.Local  Variables
+	2.Global Variables
+--------------------------------------------------------------
+Function preparation ways:
+==========================
+syntax:
+	def	functionName(parameters):
+		#body of the function
+		...
+		return	result
+
+A function can be prepared in 4 ways:
+
+	1.With parameters 	& With return value
+	2.With parameters 	& With out return value
+	3.With out parameters 	& With return value
+	4.With out parameters 	& With out return value
+
+
+Task1: Find area of circle
+Task2: Power of a number
+Task3: Biggest of 4 numbers
+Task4: Find factorial of a number
+Task5: Print reverse of a number
+
+
+
+
+Local  Variables : The variables which are declared inside function body is called as Local  Variables
+
+Global  Variables : The variables which are declared outside all functions is called as Global Variables
+
+
+
+Q.Can we modify global variable inside the function ?
+Ans: Yes we can, using "global" keyword
+
+
+
+
+
+
+
+
+
+
+
+
