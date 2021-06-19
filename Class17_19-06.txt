@@ -1,0 +1,28 @@
+1.NON-FUNCTIONAL PROGRAMMING DISADVANTAGES
+2.FUNCTIONAL PROGRAMMING ADVANTAGES
+3.Called Function:
+	Preparation of function
+4.Calling Function:
+	Usage of function
+5.Argument	:
+	Values which are present in calling function is called as argument
+6.Parameter	:
+	Vaiables which are present in called function header is called as parameter
+7.Function preparation ways
+8.Variable Types
+	1.Local  Variables
+	2.Global Variables
+9.Global keyword
+10.Aliasing the function
+11.Keyword as argument
+12.DEFAULT PARAMETERS
+13.pass keyword
+--------------------------------------------------------------
+10.Aliasing the function:
+	Giving another name to the function
+11.Keyword as argument
+	Assiging values to 'arguments' is called as Keyword as argument
+12.DEFAULT PARAMETERS
+	Assiging values to 'parameters' is called as DEFAULT PARAMETERS
+13.Pass keyword
+	Used to prepare empty function
