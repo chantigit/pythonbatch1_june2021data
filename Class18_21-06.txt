@@ -1,0 +1,61 @@
+1.NON-FUNCTIONAL PROGRAMMING DISADVANTAGES
+2.FUNCTIONAL PROGRAMMING ADVANTAGES
+3.Called Function:
+	Preparation of function
+4.Calling Function:
+	Usage of function
+5.Argument	:
+	Values which are present in calling function is called as argument
+6.Parameter	:
+	Vaiables which are present in called function header is called as parameter
+7.Function preparation ways
+8.Variable Types
+	1.Local  Variables
+	2.Global Variables
+9.Global keyword
+10.Aliasing the function
+11.Keyword as argument
+12.Default parameters
+13.Pass keyword
+14.Aritary argument / Variable length arguments
+15.Lambda function  / Anonymous function
+16.main() function
+--------------------------------------------------------------
+
+Arbitary arguments / Variable length arguments:
+=============================================
+
+If a function "argument length" is varying then it is called as Arbitary arguments.
+
+Arbitary arguments are achieved by using "*" operator.
+
+Ex:
+	def	myFun(*a):
+		print(a)
+
+	
+	myFun(10)
+	myFun(10,20)
+	myFun(10,20,30,40)
+	myFun(10,20,30,40,50,60,70,80,90)
+
+Lambda function  / Anonymous function:
+======================================
+A function is prepared with out name is called as Anonymous function.
+Anonymous function is implemented by labmda keyword
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
