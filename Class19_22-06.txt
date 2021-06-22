@@ -1,0 +1,67 @@
+1.NON-FUNCTIONAL PROGRAMMING DISADVANTAGES
+2.FUNCTIONAL PROGRAMMING ADVANTAGES
+3.Called Function:
+	Preparation of function
+4.Calling Function:
+	Usage of function
+5.Argument	:
+	Values which are present in calling function is called as argument
+6.Parameter	:
+	Vaiables which are present in called function header is called as parameter
+7.Function preparation ways
+8.Variable Types
+	1.Local  Variables
+	2.Global Variables
+9.Global keyword
+10.Aliasing the function
+11.Keyword as argument
+12.Default parameters
+13.Pass keyword
+14.Aritary argument / Variable length arguments
+15.Lambda function  / Anonymous function
+16.main() function
+17.Function execution approach(top-to-bottom)
+18.Call by Value & Call by Reference
+19.Nested Functions & Closure property
+--------------------------------------------------------------
+main() function:
+================
+	Using main() function we can provide entry point of the code
+	
+C language:
+	void	main()
+	{
+		//body
+	}
+Python language:
+	#Called function
+	def	main():
+		#body
+
+	#Calling function
+	if __name__ == '__main__':
+		main()
+	
+Note:
+=====
+In C,Cpp,Java,C#.net languages main() is prepared by user & calling by compiler/interpreter.
+In Python languages main() is prepared by user & calling by user.
+
+
+Nested Functions:
+==================
+Preparing a function inside another function is called as Nested Function
+
+syntax:
+	def		function1Name():
+		def 	function2Name():
+	
+Example:
+	def		one():
+		a=10
+		
+		def		two():
+			b=20
+			
+			def		three():
+				c=30
