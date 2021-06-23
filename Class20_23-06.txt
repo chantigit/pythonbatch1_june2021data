@@ -1,0 +1,68 @@
+1.NON-FUNCTIONAL PROGRAMMING DISADVANTAGES
+2.FUNCTIONAL PROGRAMMING ADVANTAGES
+3.Called Function:
+	Preparation of function
+4.Calling Function:
+	Usage of function
+5.Argument	:
+	Values which are present in calling function is called as argument
+6.Parameter	:
+	Vaiables which are present in called function header is called as parameter
+7.Function preparation ways
+8.Variable Types
+	1.Local  Variables
+	2.Global Variables
+9.Global keyword
+10.Aliasing the function
+11.Keyword as argument
+12.Default parameters
+13.Pass keyword
+14.Arbitary argument / Variable length arguments
+15.Lambda function  / Anonymous function
+16.main() function
+17.Function execution approach(top-to-bottom)
+18.Call by Value & Call by Reference
+19.Nested Functions & Closure property
+20.Recursion
+21.Pass function as argumrnt to another function
+22.A function can used as return statement to another function
+23.Decorators  (19,21,22)
+24.Generators
+--------------------------------------------------------------
+Recursion:
+=========
+A function calling itself is called as recursion
+
+without recursion:
+
+	def		task1():
+		#body
+		
+	task1()
+
+
+with recursion:
+
+	def		task1():
+		....
+		task1()
+		
+	task1()
+
+
+Passing function as an argument	/	Higher Order Functions:
+===========================================================
+Functions that can accept other functions as arguments are also called higher-order functions
+
+
+
+
+
+
+
+
+
+
+
+Function returning another function
+In python we can return a function from another function
