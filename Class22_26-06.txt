@@ -1,0 +1,95 @@
+________________________________________________________________________________________
+
+String:
+=======
+Def:
+	Collection/Group/Sequence of characters enclosed with in either double quotes or single quotes.
+	
+Reprepsenation:
+	1.Single line strings	:	double quotes or single quotes
+	2.Multi line strings	:   triple double quotes or triple single quotes
+	
+Note:
+	string always creates immutable(content cannot be modified until we assign the result) object
+
+
+I.String related functions
+II.Operations on strings
+----------------------------------------------------------------------------------------
+I.String related functions(31):
+==============================
+1.len()	: return no of characters
+2.min() : return min ascii character value 
+3.max() : return max ascii character value
+4.Case related functions (5)
+	lower()
+	upper()
+	title()
+	swapcase()
+	capitalize()
+5.Searching related functions(4)
+   startswith()
+   endswith()
+   find()
+   rfind()
+6.Space removal related functions(3)
+	strip()
+	lstrip()
+	rstrip()
+7.String adjustment related functions(3)
+	center()
+	ljust()
+	rjust()
+8.Utility functions(7)
+	index()
+	rindex()
+	count()
+	split()
+	replace()
+	join()
+	format()
+9.'is' related functions(6)	
+	isdigit()
+	isalpha()
+	isalnum
+	islower()
+	isupper()
+	istitle()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
