@@ -1,0 +1,67 @@
+=======================================================================================
+Python collection datatypes:
+____________________________
+	They can store more tha one value
+	
+	1.List
+	2.Tuple
+	3.Set
+	4.Dictionary
+	5.Arrays
+
+Note:
+-----
+Among all 5 types only array can store homogenous elements
+
+===================================================================================
+				1			2				3             	4					5						6
+			Notation		Values Types	object type	 	Duplication			Accessing				Insertion
+																										Order
+																										
+1.List		[v1,v2,..]		Homo+Hetero		Mutable			Allowed				By index				Follows
+2.Tuple		(v1,v2,..)		Homo+Hetero		Immutable		Allowed				By index				Follows
+3.Set		{v1,v2,..}		Homo+Hetero		Immutable		Cannot alowed		No index				Cannot Follows
+4.Dict		{k1:v1,k2:v2,..}Homo+Hetero		Mutable			Keys Cannot alowed  Cannot accessed by index Cannot Follows
+															Values can be		Values accessed by key
+________________________________________________________________________________________															
+1.List:
+=======
+	->List Notation is: []  or list()
+	->List allows Homo & Hetero Values Types	
+	->List object is mutable	 	
+	->List allow Duplication	
+	->List elements are accessed index (+,-)
+	->List follows insertion order (FIFO)	
+	
+I.List related functions
+II.Reading list elements from console
+II.Operations on List
+________________________________________________________________________________________
+I.List related 15 functions:
+============================
+1.Insertion related functions
+	append()
+	insert()
+	extend()
+2.Removal related functions
+	remove()
+	pop()
+	clear()
+	del keyword
+3.Utilitty functions
+	len(),min(),max(),sum()
+	copy(),count(),index(),reverse(),sort()
+	
+	
+Task1:Read your hobbies from console & print all in asecending order
+
+	singing
+	playing cricket
+	gardening
+	surfing
+
+Task2:Read swiggy orders from console & print 1.totalprice,2.18% of gst,3.delivery charger 10/- 4.Total Bill
+
+Task3:Read 6 subjects from console & print 1.total marks 2.lowest mark 3.highest mark 4.sorting(asc,desc) order
+
+ 

@@ -1,0 +1,90 @@
+________________________________________________________________________________________
+
+String:
+=======
+Def:
+	Collection/Group/Sequence of characters enclosed with in either double quotes or single quotes.
+	
+Reprepsenation:
+	1.Single line strings	:	double quotes or single quotes
+	2.Multi line strings	:   triple double quotes or triple single quotes
+	
+Note:
+	string always creates immutable(content cannot be modified until we assign the result) object
+
+
+I.String related functions
+II.Operations on strings
+----------------------------------------------------------------------------------------
+II.Operations on strings:
+=========================
+1.Concatenation  	(+)
+2.Repeatation		(*)
+3.Slicing			(:)
+4.Indexing			(+/-)
+
+
+Interview questions on string:
+		
+1.Reverse of string		s='Apple is fruit'   =>  tiurf si  elppA
+2.Reverse of each word	s='Apple is fruit'   =>  elppA  si  tiurf
+3.s='Apple'
+		A
+		Ap
+		App
+		Appl
+		Apple
+4.s1='Institute'   s2='Banana'
+	print s1.length + s2.length if s1 is greater than s2 
+	print s1.length - s2.length if s1 is lesser than s2 
+	print OKAY if s1 is equal s2 
+
+5.s='Apple'   :  remove all vowels
+
+6.s='Apple'   :  remove e character
+
+7.s='Banana'  :  remove duplicate characters  => Ban
+
+8.s='One apple cost is 60 rupees'
+	Print number of vowels
+	Print number of spaces
+	Print number of digits
+	Print number of words
+=======================================================================================
+Python collection datatypes:
+____________________________
+	They can store more tha one value
+	
+	1.List
+	2.Tuple
+	3.Set
+	4.Dictionary
+	5.Arrays
+
+Note:
+-----
+Among all 5 types only array can store homogenous elements
+
+===================================================================================
+				1			2				3             	4					5						6
+			Notation		Values Types	object type	 	Duplication			Accessing				Insertion
+																										Order
+																										
+1.List		[v1,v2,..]		Homo+Hetero		Mutable			Allowed				By index				Follows
+2.Tuple		(v1,v2,..)		Homo+Hetero		Immutable		Allowed				By index				Follows
+3.Set		{v1,v2,..}		Homo+Hetero		Immutable		Cannot alowed		No index				Cannot Follows
+4.Dict		{k1:v1,k2:v2,..}Homo+Hetero		Mutable			Keys Cannot alowed  Cannot accessed by index Cannot Follows
+															Values can be		Values accessed by key
+________________________________________________________________________________________															
+1.List:
+=======
+	->List Notation is: []  or list()
+	->List allows Homo & Hetero Values Types	
+	->List object is mutable	 	
+	->List allow Duplication	
+	->List elements are accessed index (+,-)
+	->List follows insertion order (FIFO)	
+	
+	
+I.List related functions
+II.Operations on List
