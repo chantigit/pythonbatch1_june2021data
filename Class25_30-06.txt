@@ -1,0 +1,55 @@
+=======================================================================================
+Python collection datatypes:
+===================================================================================
+				1			2				3             	4					5						6
+			Notation		Values Types	object type	 	Duplication			Accessing				Insertion
+																										Order
+																										
+1.List		[v1,v2,..]		Homo+Hetero		Mutable			Allowed				By index				Follows
+2.Tuple		(v1,v2,..)		Homo+Hetero		Immutable		Allowed				By index				Follows
+3.Set		{v1,v2,..}		Homo+Hetero		Immutable		Cannot alowed		No index				Cannot Follows
+4.Dict		{k1:v1,k2:v2,..}Homo+Hetero		Mutable			Keys Cannot alowed  Cannot accessed by index Cannot Follows
+															Values can be		Values accessed by key
+________________________________________________________________________________________															
+1.List:
+=======
+	->List Notation is: []  or list()
+	->List allows Homo & Hetero Values Types	
+	->List object is mutable	 	
+	->List allow Duplication	
+	->List elements are accessed index (+,-)
+	->List follows insertion order (FIFO)	
+	
+I.List related functions
+II.Reading list elements from console & Iterating List
+III.List comprehension
+IV.List Membership Test
+V.Nested List
+VI.Operations on List
+________________________________________________________________________________________
+I.List related 15 functions:
+============================
+1.Insertion related functions
+	append()
+	insert()
+	extend()
+2.Removal related functions
+	remove()
+	pop()
+	clear()
+	del keyword
+3.Utility functions
+	len(),min(),max(),sum()
+	copy(),count(),index(),reverse(),sort()
+	
+List comprehension:
+	Creating list in a easy way using for loop
+List Membership Test:
+	Membership operators : in , not in
+Nested List:
+	Creating a list in a list 
+Operations on List:
+	1.Concatenation	(+)
+	2.Repeatation   (*)
+	3.Indexing      (+/-)
+	4.Slicing       (:)
