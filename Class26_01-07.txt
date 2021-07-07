@@ -1,0 +1,70 @@
+=======================================================================================
+Python collection datatypes:
+===================================================================================
+				1			2				3             	4					5						6
+			Notation		Values Types	object type	 	Duplication			Accessing				Insertion
+																										Order
+																										
+1.List		[v1,v2,..]		Homo+Hetero		Mutable			Allowed				By index				Follows
+2.Tuple		(v1,v2,..)		Homo+Hetero		Immutable		Allowed				By index				Follows
+3.Set		{v1,v2,..}		Homo+Hetero		Immutable		Cannot alowed		No index				Cannot Follows
+4.Dict		{k1:v1,k2:v2,..}Homo+Hetero		Mutable			Keys Cannot alowed  Cannot accessed by index Cannot Follows
+															Values can be		Values accessed by key
+________________________________________________________________________________________															
+1.List:
+=======
+	->List Notation is: []  or list()
+	->List allows Homo & Hetero Values Types	
+	->List object is mutable	 	
+	->List allow Duplication	
+	->List elements are accessed index (+,-)
+	->List follows insertion order (FIFO)	
+2.Tuple:
+=======
+	->Tuple Notation is: ()  or tuple() or multiple elements separated by ,
+	->Tuple allows Homo & Hetero Values Types	
+	->Tuple allow Duplication	
+	->Tuple elements are accessed index (+,-)
+	->Tuple follows insertion order (FIFO)	
+	->Tuple object is immutable	/ read only  (You cannot write,update & delete)	
+
+List Vs Tuple:	
+-------------						List		Tuple
+	1.Representation		:		[]			()
+	2.Object Type 			:		mutable		immutable
+	
+3.Set:
+=======
+	->Set Notation is: {v1,v2,..}  or set() 
+	->Set allows Homo & Hetero Values Types	
+	->Set cannot allow Duplication	
+	->Set elements are not accessed by index
+	->Set cannot follows insertion order 	
+	->Set object is immutable	/ read only  (You cannot write,update & delete)	
+	
+Q1.Remove duplicates elements from list ?  => set
+
+List Vs Set		:notation,duplication,object type,accessing
+Tuple Vs Set 	:notation,duplication,accessing
+
+Set functions:
+--------------
+1.Union					:	|
+2.Intersection			:	&
+3.Difference			:	-
+4.Symmetric Difference	:	^
+
+
+4.Dictionary:
+=============
+	->Dictionary Notation is: {}  or dict()  or {k1:v1,..} 
+	->Dictionary allows Homo & Hetero Values Types	
+	->Dictionary cannot allow duplicate keys but values can be duplicate	
+	->Dictionary values are accessed by keys
+	->Dictionary cannot follows insertion order 	
+	->Dictionary object is mutable
+
+Q1.What happents if we try to store duplicate key ?
+Ans:
+	That key Old value is replaced by new value
+	

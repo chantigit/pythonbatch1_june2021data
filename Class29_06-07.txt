@@ -1,0 +1,68 @@
+NumPy:
+=====
+Used to prepare Multi Dimensional arrays like 2D,3D & N D arrays
+1.Preparation of numpy array:
+	->All numpy related functions are belongs to "numpy" module
+	->Inorder to use numpy & it's functions you must import numpy module
+	
+pip command: (Python Package Installer)
+----------------------------------------
+Using this command we can additional modules/libraries to the python like numpy,django,flask,..
+
+syntax:
+	pip   	install   modulename
+ex:
+	pip		install		numpy
+========================================================
+Core Python:  (FUNCTIOANAL PROGRAMMING)
+============
+	Basics Of python
+	Input & Output
+	Functions
+	String
+	L,T,S,D,A,NumPy
+	Iterable & Iterator
+	
+Adv Python:	(OBJECT ORIENTED PROGRAMMING)
+===========
+	OOPS
+	Modules & Packages
+	Exception Handling
+	MultiThreading
+	RE
+	Files
+	Db Con
+=========================================================
+collection types based on order:
+================================
+
+Ordered Type collection		(Accessed By index)
+	->List
+	->Tuple
+
+Unordered Type collection 	(Accessed By index)
+	->Set
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

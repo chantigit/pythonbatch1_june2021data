@@ -1,0 +1,45 @@
+OOPS with Python:
+=================
+OOPS = Object Oriented Programming Structure
+
+Cpp 	follows Object Oriented Programming Structure
+Java 	follows	Object Oriented Programming Structure
+C#.net 	follows	Object Oriented Programming Structure
+Python 	follows	Object Oriented Programming Structure
+
+
+Object Oriented Programming Principles are (CO-APIE)
+	Class
+	Object
+	Abstraction
+	Polymorphism
+	Inheritance
+	Encapsulation
+	
+Object Oriented Programming features APIE
+Object Oriented Programming features are implemented by CO
+
+Q1.	Object Oriented Programming Language Vs Object Based Programming Language
+	
+	-> Supports all OOPS principles				-> Cannot supports P & I principles
+	-> Ex: Cpp,Java,Python,C#.net,..			Ex: JavaScript,Vb.net ,...
+	-> Provides readymade classes not objects	-> Provides readymade classes & objects
+
+Q2. What are Advantages OOPS ?
+
+	Simplicity of code is achived by 		Class & 	Object
+	Confidentiality of code is achived by 	Abstraction
+	Readability of code is achived by 		Polymorphism
+	Reusability of code is achived by 		Inheritance
+	Modularity  of code is achived by 		Encapsulation
+
+
+Snytax for Class :
+
+class	ClassName:
+	#Data
+	#Methods
+
+Snytax for Object :
+
+	objectName=ClassName(object values)

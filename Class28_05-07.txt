@@ -1,0 +1,38 @@
+Arrays:
+======
+Def:
+	Array is a collection of HOMOGENEOUS elements.
+
+1.Preparation of array:
+	->All array related functions are belongs to "array" module
+	->Inorder to use array & it's functions you must import array module
+
+syntax:
+		arrayvariablename = array('MODE OF ARRAY',[ELEMENTS IN ARRAY])
+		
+Ex1: prepare an array with 5 students ages
+Ex2: prepare an array with 5 students heights
+		
+	
+Array features:
+	
+	->Array object is mutable	 	
+	->Array allow Duplication	
+	->Array elements are accessed index (+,-)
+	->Array follows insertion order (FIFO)
+
+NumPy:
+=====
+Used to prepare Multi Dimensional arrays like 2D,3D & N D arrays
+1.Preparation of numpy array:
+	->All numpy related functions are belongs to "numpy" module
+	->Inorder to use numpy & it's functions you must import numpy module
+	
+pip command: (Python Package Installer)
+----------------------------------------
+Using this command we can additional modules/libraries to the python like numpy,django,flask,..
+
+syntax:
+	pip   	install   modulename
+ex:
+	pip		install		numpy

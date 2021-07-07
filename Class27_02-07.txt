@@ -1,0 +1,145 @@
+=======================================================================================
+Python collection datatypes:
+===================================================================================
+				1			2				3             	4					5						6
+			Notation		Values Types	object type	 	Duplication			Accessing				Insertion
+																										Order
+																										
+1.List		[v1,v2,..]		Homo+Hetero		Mutable			Allowed				By index				Follows
+2.Tuple		(v1,v2,..)		Homo+Hetero		Immutable		Allowed				By index				Follows
+3.Set		{v1,v2,..}		Homo+Hetero		Immutable		Cannot alowed		No index				Cannot Follows
+4.Dict		{k1:v1,k2:v2,..}Homo+Hetero		Mutable			Keys Cannot alowed  Cannot accessed by index Cannot Follows
+															Values can be		Values accessed by key
+________________________________________________________________________________________															
+1.List:
+=======
+	->List Notation is: []  or list()
+	->List allows Homo & Hetero Values Types	
+	->List object is mutable	 	
+	->List allow Duplication	
+	->List elements are accessed index (+,-)
+	->List follows insertion order (FIFO)	
+2.Tuple:
+=======
+	->Tuple Notation is: ()  or tuple() or multiple elements separated by ,
+	->Tuple allows Homo & Hetero Values Types	
+	->Tuple allow Duplication	
+	->Tuple elements are accessed index (+,-)
+	->Tuple follows insertion order (FIFO)	
+	->Tuple object is immutable	/ read only  (You cannot write,update & delete)	
+
+List Vs Tuple:	
+-------------						List		Tuple
+	1.Representation		:		[]			()
+	2.Object Type 			:		mutable		immutable
+	
+3.Set:
+=======
+	->Set Notation is: {v1,v2,..}  or set() 
+	->Set allows Homo & Hetero Values Types	
+	->Set cannot allow Duplication	
+	->Set elements are not accessed by index
+	->Set cannot follows insertion order 	
+	->Set object is immutable	/ read only  (You cannot write,update & delete)	
+	
+Q1.Remove duplicates elements from list ?  => set
+
+List Vs Set		:notation,duplication,object type,accessing
+Tuple Vs Set 	:notation,duplication,accessing
+
+Set functions:
+--------------
+1.Union					:	|
+2.Intersection			:	&
+3.Difference			:	-
+4.Symmetric Difference	:	^
+
+
+4.Dictionary:
+=============
+	->Dictionary Notation is: {}  or dict()  or {k1:v1,..} 
+	->Dictionary allows Homo & Hetero Values Types	
+	->Dictionary cannot allow duplicate keys but values can be duplicate	
+	->Dictionary values are accessed by keys
+	->Dictionary cannot follows insertion order 	
+	->Dictionary object is mutable
+
+Q1.What happents if we try to store duplicate key ?
+Ans:
+	That key Old value is replaced by new value
+	
+Item:
+  One pair of key, value is called as Item
+
+Dictionary functions:
+---------------------
+	1.get(key) 
+	2.pop(key)
+	3.clear()
+	4.keys()  
+	5.values()
+	6.items()
+	7.update()
+	
+	
+	
+	
+Note:
+=====
+List,Set,Tupple & Dict are allows heterogenous elements
+
+Q1.I want to prepare a group with only homogeneous elements, is it possible in python ?
+Ans: Yes, using arrays	
+
+
+Arrays:
+======
+Def:
+	Array is a collection of HOMOGENEOUS elements.
+
+1.Preparation of array:
+	->All array related functions are belongs to "array" module
+	->Inorder to use array & it's functions you must import array module
+
+syntax:
+		arrayvariablename = array('MODE OF ARRAY',[ELEMENTS IN ARRAY])
+		
+Ex1: prepare an array with 5 students ages
+Ex2: prepare an array with 5 students heights
+		
+		
+		
+	TypeCode 	C type			Python type		size
+	
+	'i'  		singned int			int			2 bytes = 16 bits = 2^16 = 65536 
+	
+												Min value = -32768
+												Max value = +32767
+												
+	'I'  		unsingned int		int			2 bytes = 16 bits = 2^16 = 65536 
+	
+												Min value = 0
+												Max value = 65536
+	
+	
+		unsigned number : positive
+		singned number  : positive & negative
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
