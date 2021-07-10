@@ -1,0 +1,112 @@
+OOPS with Python:
+=================
+	
+Encapsulation:
+-------------
+It is a process of binding attributes(data) & behaviour(methods) in a block (class) as Entity.
+Special functions inside class
+	1.init() / constructor
+	2.del()  / destructor
+	3.str()
+	4.variable types
+	5.method types
+
+Inheritance:
+===========
+Def:
+		Creating a new class with existing class features
+		
+Representation:
+		class 	ParentClass:
+			#members of parent class
+		
+		class  ChildClass(ParentClass):
+			#members of child class
+	
+Adv:
+		Code reusability
+	
+Types:
+======
+	1.Single Level Inheritance  =>		A  <-  B
+	
+	2.Mult Level Inheritance  	=>		A  <-  B  <- C 
+	
+	3.Hierarchical Inheritance  =>		B  <-  C
+										B  <-  D
+											
+		(One parent with multiple childs)
+	4.Mulitple inheritance		=>		C  <-  E
+										D  <-  E
+		(One child with multiple parents)
+		
+	5.Multipath inheritance		=>		A  <-  	B
+										A  <-  	C
+										B  <-	D
+										C  <-   D
+	6.Hybrid inheritance
+	
+Q1.Java,C#.net languages are not support Multiple inheritance through class,
+	but python support Mulitple inheritance, Explain how ?
+	
+
+	
+_______________________________________________________________________________________________
+Polymorphsim:  (Poly - many , Morphing -> forms)
+=============
+Def:
+	Performing different operations with same method name.
+	Or
+	Doing many/multiple things by the same method name.
+Ex:
+	ACTION				Can be done in different ways
+		
+	Doing payment 	->	Google Pay, Phone pay , Debit cart, Credit Cart ,....
+
+Polymorphsim implemented by 
+
+	1.Method Overloading
+	2.Method Overriding
+
+
+1.Method Overloading:
+---------------------
+Def:	Preparing multiple methods in a class with same name & different number of argument list
+Ex1:
+	addition of 2 numbers,3 numbers ,4 numbers 
+
+
+Note:
+	python cannot support Method Overloading because of Method Replacement. 
+	(but through arbitary arguments we can achieve Method Overloading)
+
+
+2.Method Overriding:
+--------------------
+Def:	If subclass (child class) has the same method as declared in the parent class, it is known as method overriding. 
+		In Overriding always child methods gets executed
+		
+Note:
+	python can support Method Overriding
+	If we use super keyword in child class, then we can access both parent & child methods in Overriding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

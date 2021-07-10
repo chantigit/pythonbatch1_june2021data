@@ -1,28 +1,21 @@
-#1.Class Preparation
 class Calculator:
-    #2.Data initialization
     def __init__(self,num1,num2):
-        self.num1=num1
-        self.num2=num2
-    #3.Methods
+        print('*****CONSTRUCTOR*****')
+        self.num1,self.num2=num1,num2
     def add(self):
         res=self.num1+self.num2
         print('Addition is:',res)
     def sub(self):
         res = self.num1 - self.num2
         print('Substraction is:', res)
-    def mul(self):
-        res = self.num1 * self.num2
-        print('Multiplication is:', res)
-#4.Object preparation
+    def __str__(self):
+        print('*****STR*****')
+        return str(self.num1)+','+str(self.num2)
+    def __del__(self):
+        print('*****DESTRUCTOR*****')
+        del self.num1,self.num2
+
 user1=Calculator(10,200)
-#5.Calling methods
+print(user1)
 user1.add()
 user1.sub()
-user1.mul()
-#4.Object preparation
-user2=Calculator(400,60)
-#5.Calling methods
-user2.add()
-user2.sub()
-user2.mul()

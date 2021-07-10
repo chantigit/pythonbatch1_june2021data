@@ -1,0 +1,91 @@
+OOPS with Python:
+=================
+class : It is a imaginary thing which describes 		attributes(data) & behaviour(methods) of real world entity
+object : It is a Physical existing thing which defines 	attributes(data) & behaviour(methods) of real world entity
+
+class syntax:	
+	class ClassName:
+		# A& B
+object syntax:
+	objectname=ClassName(objectvalues)
+	
+Encapsulation:
+-------------
+It is a process of binding attributes(data) & behaviour(methods) in a block (class) as Entity.
+Special functions inside class
+	1.init() / constructor
+	2.del()  / destructor
+	3.str()
+	4.variable types
+	5.method types
+	
+Variable types inside class:
+----------------------------
+1.Object variables Or Instance variables
+2.Class variables or Static variables
+
+
+			Instance variables     Vs    	Static variables
+1.Ex:
+			rollNumber,name					courseName,trainerName
+			
+2.		These variable values fixed to 		These variable values fixed to 
+		individual object					class (All objects)
+		
+3.		Declared inside constructor			Declared inside class block
+		block	
+		
+4.		Memory allocated every time			Memory allocated only once 
+		when a new object gets created
+		
+5.		Accessed by self keyword			Accessed by ClassName
+
+
+
+Method types inside class:
+----------------------------
+1.Instance methods
+2.Static methods
+
+				Instance methods     Vs    		Static methods
+	
+1.			Accessed by objectname 				Accessed by classname
+2.			Must have self as 1st argument		Do not declare self keyword as first argument
+3.			No decorators are to be declares	@staticmethod decorator must be declared
+4.			Memory allocated every time			Memory allocated only once 
+
+
+Inheritance:
+===========
+Def:
+		Creating a new class with existing class features
+		
+Representation:
+		class 	ParentClass:
+			#members of parent class
+		
+		class  ChildClass(ParentClass):
+			#members of child class
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

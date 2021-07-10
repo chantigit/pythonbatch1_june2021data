@@ -1,0 +1,60 @@
+OOPS with Python:
+=================
+Class special functions:
+		I.init() function
+		II.del() function
+		III.str() function
+
+1.__init__() function / constructor
+		Used to initilize the data for object
+		This function invoke at the time of object creation
+		Per one object creation , constructor executed once
+		This function must have first argument as self keyword
+types of constructor:
+		1.Non-parameterlized constructor
+		2.Parameterlized constructor
+2.__del__() function / destructor
+		constructor will construct the object (memory allocation is done for object)
+		destructor will destruct the object	  (memory de-allocation is done for object)
+		This function invoke after completion of all object works
+3.__str__() function 
+		This function used to get the object data in string format
+		If their is no str () function inside class, then object will prints address
+		If their is str () function inside class, then object will calls str() function
+self keyword
+		Used to declare instance variables
+		It must be first argument for the constructor,destructor,str & user defined methods
+		This keyword used access current object variables
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Function Vs Method:
+===================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
