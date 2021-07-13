@@ -30,3 +30,4 @@ print('---------------BANK3 Methods-----------------')
 bank3.timings()
 bank3.holyDaysList()
 bank3.rateOfInterest()
+

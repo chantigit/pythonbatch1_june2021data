@@ -1,0 +1,116 @@
+Python modules & packages:
+==========================
+1.module 	: A module is python file which consist of multiple data + functions + classes
+
+2.package   : A package is a directory which consist of multiple modules & sub packages
+
+Adv:
+====
+	->Maintaintability of code
+	->Code reusability
+	
+Q1.How to use Python modules & packages ?
+
+Ans:
+	1.By using normal import
+	
+		->syntax:
+				import modulename
+		->In this type of import, we can access all module members & each time we must declare modulename along
+			with the member
+		->Ex:
+		import math
+		print(math.pi)
+		print(math.e)
+		print(math.sin(90))
+		print(math.tan(45))
+        print(math.pow(2,10))
+        print(math.sqrt(144))
+        print(math.ceil(5.6))
+        print(math.floor(5.6))
+		
+	2.By from import
+		->syntax:
+				from modulename import members
+				
+		->In this type of import, we can access specific module members & here you need not to declare modulename along
+			with the member
+		->Ex:
+
+		from math import sin,pi
+		print(sin(90))
+		print(pi)
+		
+		from chanti import a,b,sayhi
+		print(a,b)
+		sayhi()
+
+Aliaing the modules:
+===================
+	import math as m
+	import chanti as c
+__________________________________________________________________________________________
+
+Exception handling in Python:
+=============================
+1.Error
+		It  is generated at compile time due to improper syntax
+		Errors cannot be handled
+2.Exception
+		It  is generated at run time due to improper logic
+Ex:
+	ZeroDivisionError		: division by zero
+	IndexError				: string index out of range
+	IndexError				: list index out of range
+	TypeError				: 'set' object is not subscriptable
+	ValueError				: invalid literal for int() with base 10: 'APPLE'
+
+	Exceptions can be handled by using following keywords
+	
+	1.try
+	2.except
+	3.finally
+	
+	4.else
+	5.raise
+
+syntax of try,except,finally:
+=============================
+try:
+	#prepare block of statements which monitoring the exceptions
+	#Scenario1:No exceptions  	(try -> finally)
+	#Scenario2:Exceptions exist (try -> first except)
+	
+except ExceptionClass1Name:
+	#prepare block of statements which handle the exception1
+	#After handling control goes to finally
+except ExceptionClass2Name:
+	#prepare block of statements which handle the exception2
+	#After handling control goes to finally
+except ExceptionClass3Name:
+	#prepare block of statements which handle the exception3
+	#After handling control goes to finally
+
+finally:
+	#prepare block of statements which executed after try
+	#prepare block of statements which executed after except
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

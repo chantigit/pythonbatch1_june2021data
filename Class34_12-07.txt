@@ -1,0 +1,200 @@
+OOPS with Python:
+=================
+	
+Encapsulation:
+-------------
+It is a process of binding attributes(data) & behaviour(methods) in a block (class) as Entity.
+Special functions inside class
+	1.init() / constructor
+	2.del()  / destructor
+	3.str()
+	4.variable types
+	5.method types
+
+Inheritance:
+===========
+Def:
+		Creating a new class with existing class features
+		
+Representation:
+		class 	ParentClass:
+			#members of parent class
+		
+		class  ChildClass(ParentClass):
+			#members of child class
+	
+Adv:
+		Code reusability
+	
+Types:
+======
+	1.Single Level Inheritance  =>		A  <-  B
+	
+	2.Mult Level Inheritance  	=>		A  <-  B  <- C 
+	
+	3.Hierarchical Inheritance  =>		B  <-  C
+										B  <-  D
+											
+		(One parent with multiple childs)
+	4.Mulitple inheritance		=>		C  <-  E
+										D  <-  E
+		(One child with multiple parents)
+		
+	5.Multipath inheritance		=>		A  <-  	B
+										A  <-  	C
+										B  <-	D
+										C  <-   D
+	6.Hybrid inheritance
+	
+Q1.Java,C#.net languages are not support Multiple inheritance through class,
+	but python support Mulitple inheritance, Explain how ?
+	
+
+	
+_______________________________________________________________________________________________
+Polymorphsim:  (Poly - many , Morphing -> forms)
+=============
+Def:
+	Performing different operations with same method name.
+	Or
+	Doing many/multiple things by the same method name.
+Ex:
+	ACTION				Can be done in different ways
+		
+	Doing payment 	->	Google Pay, Phone pay , Debit cart, Credit Cart ,....
+
+Polymorphsim implemented by 
+
+	1.Method Overloading
+	2.Method Overriding
+
+
+1.Method Overloading:
+---------------------
+Def:	Preparing multiple methods in a class with same name & different number of argument list
+Ex1:
+	addition of 2 numbers,3 numbers ,4 numbers 
+
+
+Note:
+	python cannot support Method Overloading because of Method Replacement. 
+	(but through arbitary arguments we can achieve Method Overloading)
+
+
+2.Method Overriding:
+--------------------
+Def:	If subclass (child class) has the same method as declared in the parent class, it is known as method overriding. 
+		In Overriding always child methods gets executed
+		
+Note:
+	python can support Method Overriding
+	If we use super keyword in child class, then we can access both parent & child methods in Overriding
+
+_______________________________________________________________________________________________
+Abstract Class:
+==============
+
+A class containing one or more abstract methods is called an abstract class.
+
+Abstract methods do not contain any implementation. 
+
+Instead, all the implementations can be defined in the methods of sub-classes that inherit the abstract class. 
+
+An abstract class is created by importing a class named 'ABC' from the 'abc' module and inheriting the 'ABC' class. 
+
+Below is the syntax for creating the abstract class
+
+	class  ClassName(ABC):
+		#normal methods
+		#abstract methods
+
+1.An abstract class can have both a normal method and an abstract method
+2.An abstract class cannot be instantiated, ie., we cannot create objects for the abstract class
+3.If the implementation of the abstract method is not defined in the derived classes, 
+  then the Python interpreter throws an error.
+  
+Note:
+	1.Normal class have only methods with body
+	2.Abstract class can have methods with & without body
+	3.An abstract class which have "only abstract methods" then that class is treated as INTERFACE.
+	
+_______________________________________________________________________________________________
+
+Abstraction In Python:
+========================
+1) What is Abstraction in Python?
+
+Abstraction in Python is the process of "hiding" the real implementation of an application from the user 
+and "emphasizing" only on how to use the application.
+
+2) How can we achieve Abstraction in Python?
+
+In Python, abstraction can be achieved using abstract classes and abstract methods.
+
+3) Whether an abstract class can be instantiated?
+
+No, the abstract class cannot be instantiated, i.e., we cannot create objects for the abstract class.
+
+4) Mention the name of the module to be imported for an abstract class
+
+‘abc’ is the module to be imported when we define an abstract class in Python programs. 
+‘abc’ stands for ‘abstract base class’.
+
+_______________________________________________________________________________________________
+
+Access Modifiers in Python:
+===========================
+	1.Public 	(No underscore is declared before class members(DATA+METHOD))
+	2.Private	(__underscore is declared before class members(DATA+METHOD))
+	3.Protected (_ underscore is declared before class members(DATA+METHOD))
+
+If any members are declared with public access modifier then it is visible inside class & outside all classes
+
+If any members are declared with private access modifier then it is visible only inside class 
+
+If any members are declared with protected access modifier then it is visible from parent to child class
+
+_______________________________________________________________________________________________
+Python modules & packages:
+==========================
+module 	: A module is python file which consist of multiple data + functions + classes
+
+package : A package is a directory which consist of multiple modules
+
+
+Adv:
+====
+	->Maintaintability of code
+	->Code reusability
+	
+Usage of Python modules & packages:
+===================================
+
+math.py
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
