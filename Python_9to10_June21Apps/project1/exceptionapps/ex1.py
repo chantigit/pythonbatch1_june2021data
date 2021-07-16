@@ -6,6 +6,8 @@ def work1():
         print('Division is:', res)
     except ZeroDivisionError:
         print('Cannot divide by zero')
+    except ValueError:
+        print('Invalid input')
     finally:
         print('END')
 

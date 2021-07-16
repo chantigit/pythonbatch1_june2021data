@@ -1,0 +1,80 @@
+Exception handling in Python:
+=============================
+1.Error
+		It  is generated at compile time due to improper syntax
+		Errors cannot be handled
+2.Exception
+		It  is generated at run time due to improper logic
+Ex:
+	ZeroDivisionError		: division by zero
+	IndexError				: string index out of range
+	IndexError				: list index out of range
+	TypeError				: 'set' object is not subscriptable
+	ValueError				: invalid literal for int() with base 10: 'APPLE'
+
+	Exceptions can be handled by using following keywords
+	
+	1.try
+	2.except
+	3.finally
+	
+	4.else
+	5.raise
+
+syntax of try,except,finally:
+=============================
+try:
+	#prepare block of statements which monitoring the exceptions
+	#Scenario1:No exceptions  	(try -> finally)
+	#Scenario2:Exceptions exist (try -> first except)
+	
+except ExceptionClass1Name:
+	#prepare block of statements which handle the exception1
+	#After handling control goes to finally
+except ExceptionClass2Name:
+	#prepare block of statements which handle the exception2
+	#After handling control goes to finally
+except ExceptionClass3Name:
+	#prepare block of statements which handle the exception3
+	#After handling control goes to finally
+else:
+	#prepare block of statements which executed after try(if their is no exceptions)
+finally:
+	#prepare block of statements which executed after try
+	#prepare block of statements which executed after except
+
+
+Scenario1:One try block with one except block
+Scenario2:One try block with two except block
+Scenario3:One try block with two exceptions
+Scenario4:Handling multiple exceptions using nested try blocks
+Scenario5:try block without except block
+Scenario6:try block without finally block
+Scenario7:try with except,else & finally blocks
+Scenario8:except block with Exception class
+Scenario9:Parent & Child classes order with except blocks
+
+
+Note:
+
+1.One try block can handle only one exception, that to first occurance
+2.If user want to handle multiple exceptions then re write the code using nested try blocks
+3.finally block with give the assurance that the whole gets executed with 
+	1.presence of exception in try block
+	2.absence of exception in try block
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
