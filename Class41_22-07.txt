@@ -1,0 +1,74 @@
+
+Regular Expressions:
+====================
+1.Normal String Vs Raw String
+
+2.Functions in Regular Expressions
+
+	1.sub()
+	2.split()
+	3.search()
+	4.match()
+	5.findall()
+	
+All above 5 functions are belongs to "re" module
+
+Special operators used in Regular Expressions:
+----------------------------------------------
+	^		=> starting
+	$ 		=> ending
+	[]  	=> set of characters
+	
+	.   	=> period (.  -> single match    ..  -> two match)
+	
+	*   	=> zero or more occurances
+	+   	=> one or more occurances
+	?  		 => zero or one occurances
+	
+	{n,m} 	=> atleat n times & atmost m times
+	
+	|    	=> Alternation
+	()   	=> group
+
+Special characters used in Regular Expressions:
+----------------------------------------------
+	\A
+	\B
+	\d
+	\D
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,83 @@
+Data Storage in Python:
+=======================
+
+I.Temporary Data Storage:
+=========================
+1.Basic DataTypes
+	int,float,str,bool & complex
+
+2.Collection DataTypes
+	list,tuple,set,dict & arrays
+
+II.Permanant Data Storage:
+=========================
+1.Files
+2.Databases
+------------------------------------------------------------------------------------
+Files:
+++++++
+
+operations on file					function
+
+->Opening a file					open()
+->Writing data into file			write()
+->Reading data from file			read()
+->Appending data into file			write()
+->Closing file						close()
+
+
+open() function:
+================
+syntax:
+		filevariable	= open( FILENAME	,	FILEMODE)
+	
+
+FILEMODE:	w  -> write   ,   r  -> read  ,  a ->  append
+
+
+Steps to prepare any file program in python:
+============================================
+
+Step1:  Open the file in your specific mode(w/r/a)
+Step2:  Perform your specific operation on file
+Step3:	Close the file
+
+
+App1: Write a python program to create file & write some data 
+App2: Write a python program to read data from the file 
+App3: Write a python program to append data into the file
+
+
+
+
+Task1: Copy data from one file to another 
+Task2: Read data from file & Print
+		Number of words
+		Number of lines
+		Number of spaces
+		Number of vowles
+		Number of digits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

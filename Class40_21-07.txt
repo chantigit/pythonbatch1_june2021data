@@ -1,0 +1,88 @@
+Student table with id,name,age
+------------------------------------------------------------------------------------------------
+1.create command:
+syntax: create table tablename (col1name type(size) constraint,col2name type(size) constraint,....);
+query:	create table student(id int primary key,name varchar(20) not null,age int not null);
+------------------------------------------------------------------------------------------------
+2.insert command:
+syntax: insert into tablename values(value1,value2,...);
+query:	insert into student values(1,'Ajay',21);
+		insert into student values(2,'Teja',22);
+		insert into student values(3,'Varun',23);
+------------------------------------------------------------------------------------------------
+3.select command:
+syntax:	select * from tablename;
+query:	select * from student;
+------------------------------------------------------------------------------------------------
+4.update command:
+syntax: update tablename set col1name=newvalue,col2name=newvalue,...   where  <condition>;
+query:  update student set name='Tejaswi',age=23 where id=2;
+------------------------------------------------------------------------------------------------
+5.delete command:
+syntax: delete from tablename where <condition>;
+query:	delete from student where id=3;
+================================================================================================
+
+Common steps to communicate python with any database server:
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Step1:Import database related module
+Step2:Establish the connection between python app(frontend) & database (backend)
+Step3:Prepare cursor object which will allow you to execute SQL queries into DB
+Step4:Perform CRUD operations
+Step5:Print the result of CRUD operations
+
+____________________________________________________________________________________________________
+
+Regular Expressions:
+====================
+1.Normal String Vs Raw String
+
+2.Functions in Regular Expressions
+
+	1.sub()
+	2.split()
+	3.search()
+	4.match()
+	5.findall()
+	
+All above 5 functions are belongs to "re" module
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
